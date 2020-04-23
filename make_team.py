@@ -53,9 +53,14 @@ class Team:
         def search(pos, nations, clubs, lineup, positions):
             if all(v == 0 for v in positions.values()):
                 score = sum(player.games_played for player in lineup)
+                if len(clubs) > 28:
+                    print(len(clubs))
+                    print(sorted(clubs))
+                if len(clubs) < 14:
+                    print(len(clubs))
                 if score > self.best:
                     self.best = score
-                    print(score)
+                    print(score, score / len(lineup))
                     print(sorted(clubs))
                     print(sorted(nations))
                     self.pretty_print(lineup)
