@@ -45,6 +45,8 @@ Huet                France              {LA,MTL,WAS,CHI}                        
 Kölzig              Germany             {WAS,TBL}                                   G   719
 Seidenberg          Germany             {PHI,ARI,CAR,FLA,BOS,NYI}                   D   859
 Sturm               Germany             {SJ,BOS,LA,WAS,VAN,FLA}                     F   938
+Dreisaitl           Germany             {EDM}                                       F   422
+Hecht               Germany             {EDM,STL,BUF}                               F   833
 Antropov            Kazakhstan          {TOR,NYR,WIN}                               F   788
 Ozolinsh            Latvia              {SJ,COL,CAR,FLA,ANA,NYR}                    D   875
 Zholtok             Latvia              {BOS,OTT,MTL,EDM,MIN,NSH}                   F   588
@@ -61,9 +63,18 @@ Khabibulin          Russia              {WIN,ARI,TBL,CHI,EDM}                   
 Gonchar             Russia              {WAS,PIT,OTT,DAL,MTL}                       D   1301
 Ovechkin            Russia              {WAS}                                       F   1152
 Markov              Russia              {MTL}                                       D   990
+Mogilny             Russia              {BUF,VAN,NJD,TOR}                           F   990
+Zubov               Russia              {NYR,PIT,DAL}                               D   1068
+Kozlov              Russia              {DET,BUF,WIN}                               F   1182
+Kovalev             Russia              {NYR,PIT,MTL,OTT,FLA}                       F   1316
+Fedorov             Russia              {DET,ANA,CBJ,WSH}                           F   1248
 Halak               Slovakia            {MTL,STL,WAS,NYI,BOS}                       G   520
 Chara               Slovakia            {BOS,OTT,NYI}                               D   1553
 Hossa               Slovakia            {OTT,WIN,PIT,DET,CHI}                       F   1309
+Palffy              Slovakia            {NYI,LA,PIT}                                F   684
+Stumpel             Slovakia            {BOS,LA,FLA}                                F   957
+Stastny             Slovakia            {COL,NJD,STL}                               F   977
+Bondra              Slovakia            {WAS,OTT,CHI,WIN}                           F   1081
 Kopitar             Slovenia            {LA}                                        F   1073
 Lundqvist           Sweden              {NYR}                                       G   887
 Lidström            Sweden              {DET}                                       D   1564
