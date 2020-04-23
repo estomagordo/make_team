@@ -54,7 +54,7 @@ class Team:
 
             remaining_nations = len(nation_groups) - pos - 1
 
-            if remaining_nations > sum(v for v in positions.values()):
+            if remaining_nations >= sum(v for v in positions.values()):
                 search(pos + 1, set(nations), set(clubs), list(lineup), dict(positions))
 
         search(0, set(), set(), [], { 'G': 2, 'D': 4, 'F': 6 })
