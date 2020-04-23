@@ -16,7 +16,7 @@ class Team:
         self.players = players
         self.lineups = []
         self.lineup_name_sets = set()
-        self.longest = 0
+        self.best = 0
 
     def generate_lineups(self):
         players_per_nation = defaultdict(list)
@@ -27,17 +27,14 @@ class Team:
         nation_groups = sorted(players_per_nation.values(), key=lambda group : len(group))
 
         def search(pos, nations, clubs, lineup, positions):
-            if len(lineup) > self.longest:
-                self.longest = len(lineup)
-                print(self.longest)
-            if len(lineup) == 11:
-                print(lineup)
-                print(len(clubs))
-                print(sorted(clubs))
-                print(sorted(nations))
-
             if all(v == 0 for v in positions.values()):
-                print(lineup)
+                score = sum(player.games_played for player in lineup)
+                if score > self.best:
+                    self.best = score
+                    print(score)
+                    print(sorted(clubs))
+                    print(sorted(nations))
+                    print(lineup)
                 return
 
             for player in nation_groups[pos]:
