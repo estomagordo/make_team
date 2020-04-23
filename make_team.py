@@ -30,11 +30,11 @@ class Team:
             if len(lineup) > self.longest:
                 self.longest = len(lineup)
                 print(self.longest)
-                if self.longest == 11:
-                    print(lineup)
-                    print(len(clubs))
-                    print(sorted(clubs))
-                    print(sorted(nations))
+            if len(lineup) == 11:
+                print(lineup)
+                print(len(clubs))
+                print(sorted(clubs))
+                print(sorted(nations))
 
             if all(v == 0 for v in positions.values()):
                 print(lineup)

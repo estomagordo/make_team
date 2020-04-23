@@ -17,9 +17,18 @@ Stevens             Canada              {WAS,NJD,STL}                           
 Murphy              Canada              {DET,LA,PIT,WAS,DAL,TOR}                    D   1615
 Bourque             Canada              {BOS,COL}                                   D   1612
 Brodeur             Canada              {NJD,STL}                                   G   1266
+Yzerman             Canada              {DET}                                       F   1514
+Mikita              Canada              {CHI}                                       F   1396
+Sakic               Canada              {COL}                                       F   1378
+Doan                Canada              {ARI}                                       F   1540
+Perrault            Canada              {BUF}                                       F   1191
+Phillips            Canada              {OTT}                                       D   1179
+Lemieux             Canada              {PIT}                                       F   915
 Hasek               Czechia             {CHI,BUF,DET,OTT}                           G   735
 Hamrlik             Czechia             {TBL,EDM,NYI,CGY,MTL,WAS}                   D   1395
 Jagr                Czechia             {PIT,WAS,NYR,DAL,BOS,NJD,FLA,CGY,PHI}       F   1733
+Hejduk              Czechia             {COL}                                       F   1020
+Elias               Czechia             {NJD}                                       F   1240
 Nielsen             Denmark             {NYI,DET}                                   F   896
 Bødker              Denmark             {ARI,COL,SJ,OTT}                            F   709
 Eller               Denmark             {STL,MTL,WAS}                               F   754
@@ -29,6 +38,7 @@ Andersen            Denmark             {ANA,TOR}                               
 Rinne               Finland             {NSH}                                       G   659
 Numminen            Finland             {WIN,ARI,DAL,BUF}                           D   1372
 Selänne             Finland             {WIN,ANA,SJ,COL}                            F   1451
+Lehtinen            Finland             {DAL}                                       F   875
 Roussel             France              {DAL,VAN}                                   F   519
 Bellemare           France              {PHI,LV,COL}                                F   454
 Huet                France              {LA,MTL,WAS,CHI}                            G   272
@@ -50,6 +60,7 @@ Oliwa               Poland              {NJD,CBJ,PIT,NYR,BOS,CGY}               
 Khabibulin          Russia              {WIN,ARI,TBL,CHI,EDM}                       G   799
 Gonchar             Russia              {WAS,PIT,OTT,DAL,MTL}                       D   1301
 Ovechkin            Russia              {WAS}                                       F   1152
+Markov              Russia              {MTL}                                       D   990
 Halak               Slovakia            {MTL,STL,WAS,NYI,BOS}                       G   520
 Chara               Slovakia            {BOS,OTT,NYI}                               D   1553
 Hossa               Slovakia            {OTT,WIN,PIT,DET,CHI}                       F   1309
@@ -57,6 +68,9 @@ Kopitar             Slovenia            {LA}                                    
 Lundqvist           Sweden              {NYR}                                       G   887
 Lidström            Sweden              {DET}                                       D   1564
 Sundin              Sweden              {COL,TOR,VAN}                               F   1346
+Henrik_Sedin        Sweden              {VAN}                                       F   1330
+Zetterberg          Sweden              {DET}                                       F   1082
+Thomas_Steen        Sweden              {ARI}                                       F   950
 Streit              Switzerland         {MTL,NYI,PHI,PIT}                           D   786
 Josi                Switzerland         {NSH}                                       D   632
 Niederreiter        Switzerland         {NYI,MIN,CAR}                               F   601
@@ -75,3 +89,6 @@ Brett_Hull          USA                 {CGY,STL,DAL,DET,ARI}                   
 Vanbiesbrouck       USA                 {NYR,FLA,NYI,PHI,NJD}                       G   882
 Miller              USA                 {BUF,STL,VAN,ANA}                           G   780
 Barrasso            USA                 {BUF,PIT,OTT,CAR,TOR,STL}                   G   777
+Tkachuk             USA                 {ARI,STL,WIN}                               F   1201
+Leetch              USA                 {BYR,TOR,BOS}                               D   1205
+Richter             USA                 {NYR}                                       G   666
