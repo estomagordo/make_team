@@ -12,11 +12,35 @@ class Player:
         return self.name
 
 class Team:
+    position_width = 18
+
     def __init__(self, players):
         self.players = players
         self.lineups = []
         self.lineup_name_sets = set()
         self.best = 0
+    
+    def center_print(self, name):
+        diff = self.position_width - len(name)
+
+        if diff < 0:
+            return name[:self.position_width]
+
+        left = diff // 2 + diff % 2
+        right = diff // 2
+
+        return ' ' * left + name + ' ' * right
+
+    def pretty_print(self, lineup):
+        lineup.sort(key=lambda player : -player.games_played)
+
+        goalies = [player for player in lineup if player.position == 'G']
+        defenders = [player for player in lineup if player.position == 'D']
+        attackers = [player for player in lineup if player.position == 'F']
+
+        print(' '.join(attacker.name for attacker in attackers))
+        print(' '.join(defender.name for defender in defenders))
+        print(' '.join(goalie.name for goalie in goalies))
 
     def generate_lineups(self):
         players_per_nation = defaultdict(list)
@@ -34,7 +58,7 @@ class Team:
                     print(score)
                     print(sorted(clubs))
                     print(sorted(nations))
-                    print(lineup)
+                    self.pretty_print(lineup)
                 return
 
             for player in nation_groups[pos]:
